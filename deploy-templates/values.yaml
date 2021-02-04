@@ -1,0 +1,17 @@
+name: java-maven-java11-multimodule
+namespace: ""
+cdPipelineName: ""
+cdPipelineStageName: ""
+dnsWildcard: eks-core.aws.main.edp.projects.epam.com
+framework: java11-multimodule
+
+database:
+  required: false
+
+
+ingress:
+  required: false
+
+image:
+  name: java-maven-java11-multimodule
+  version: latest
